@@ -22,6 +22,7 @@
         </DataTemplate>
     </Window.Resources>
     <Grid>
+        <!-- I had a Data Template, but it messed up my listbox, not sure what went wrong so I just commented it out of the listbox -->
         <ListBox x:Name="lbxPhoneList" HorizontalAlignment="Left" Height="270" Margin="86,60,0,0" VerticalAlignment="Top" Width="259" SelectionChanged="LbxPhoneList_SelectionChanged" ItemTemplate="{StaticResource listboxTemplate}"/>
         <TextBlock x:Name="tblkPhonePrice" HorizontalAlignment="Left" Margin="509,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="66" Width="193"/>
         <Image x:Name="imgPhone" HorizontalAlignment="Left" Height="199" Margin="509,131,0,0" VerticalAlignment="Top" Width="193"/>
