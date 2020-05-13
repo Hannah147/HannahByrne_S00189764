@@ -28,6 +28,11 @@ namespace HannahByrne_S00189764
             Price = Price + (Price * percentage);
             return Price;
         }
+
+        public override string ToString()
+        {
+            return $"{Price:C}";
+        }
     }
 
     public class PhoneData : DbContext
